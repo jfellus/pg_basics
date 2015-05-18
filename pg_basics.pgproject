@@ -2,3 +2,4 @@ Include src/Sleep.h
 Include src/PrintMessage.h
 Include src/ReadFileLines.h
 Include src/WriteFileLines.h
+Include src/FPS.h

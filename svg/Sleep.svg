@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="-1024 -1024 312.40677 312.40677"
+   width="91.525421"
+   height="91.525421"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Sleep.svg">
+  <rect
+     style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect3014"
+     width="88.347458"
+     height="87.076271"
+     x="1.2711865"
+     y="1.9067762"
+     transform="matrix(3.4133333,0,0,3.4133333,-1024,-1024)" />
+  <metadata
+     id="metadata63">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Swiss Railway Clock</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview61"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.5733333"
+     inkscape:cx="32.210934"
+     inkscape:cy="36.099951"
+     inkscape:window-x="173"
+     inkscape:window-y="89"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Swiss Railway Clock</title>
+  <style
+     type="text/css"
+     id="style6">
+    .bg {stroke: none; fill: white;}
+    .fc {stroke: none; fill: black;}
+    .h1 {stroke: none; fill: black;}
+    .h2 {stroke: none; fill: #aa0000;}
+  </style>
+  <defs
+     id="defs8">
+    <path
+       id="mark1"
+       d="m -20,-1000 40,0 0,100 -40,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="mark2"
+       d="m -40,-1000 80,0 0,240 -80,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="mark3"
+       d="m -40,-1000 80,0 0,300 -80,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="handh"
+       d="m -50,-600 50,-50 50,50 0,800 -100,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="handm"
+       d="m -40,-900 40,-40 40,40 0,1180 -80,0 z"
+       inkscape:connector-curvature="0" />
+    <g
+       id="hands">
+      <path
+         d="m -10,-910 10,-10 10,10 2,300 -24,0 z m -3,520 26,0 7,690 -40,0 z"
+         id="path16"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 0,-620 a 120,120 0 0 1 0,240 120,120 0 0 1 0,-240 z m 0,60 a 60,60 0 0 0 0,120 60,60 0 0 0 0,-120 z"
+         id="path18"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="face1">
+      <use
+         xlink:href="#mark1"
+         transform="matrix(0.9945219,0.10452846,-0.10452846,0.9945219,0,0)"
+         id="use21"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark1"
+         transform="matrix(0.9781476,0.20791169,-0.20791169,0.9781476,0,0)"
+         id="use23"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark1"
+         transform="matrix(0.95105652,0.30901699,-0.30901699,0.95105652,0,0)"
+         id="use25"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark1"
+         transform="matrix(0.91354546,0.40673664,-0.40673664,0.91354546,0,0)"
+         id="use27"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+    </g>
+    <g
+       id="face2">
+      <use
+         xlink:href="#face1"
+         id="use30"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#face1"
+         transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+         id="use32"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#face1"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+         id="use34"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark3"
+         id="use36"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark2"
+         transform="matrix(0.8660254,0.5,-0.5,0.8660254,0,0)"
+         id="use38"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#mark2"
+         transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+         id="use40"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+    </g>
+    <g
+       id="face">
+      <use
+         xlink:href="#face2"
+         id="use43"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#face2"
+         transform="matrix(0,1,-1,0,0,0)"
+         id="use45"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#face2"
+         transform="scale(-1,-1)"
+         id="use47"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+      <use
+         xlink:href="#face2"
+         transform="matrix(0,-1,1,0,0,0)"
+         id="use49"
+         x="0"
+         y="0"
+         width="2048"
+         height="2048" />
+    </g>
+  </defs>
+  <g
+     id="g3040"
+     transform="matrix(0.11864407,0,0,0.11864407,-867.79661,-867.79661)">
+    <circle
+       id="circle51"
+       r="1024"
+       class="bg"
+       d="M 1024,0 C 1024,565.53958 565.53958,1024 0,1024 -565.53958,1024 -1024,565.53958 -1024,0 c 0,-565.53958 458.46042,-1024 1024,-1024 565.53958,0 1024,458.46042 1024,1024 z"
+       cx="0"
+       cy="0"
+       sodipodi:cx="0"
+       sodipodi:cy="0"
+       sodipodi:rx="1024"
+       sodipodi:ry="1024"
+       style="fill:#ffffff;stroke:none" />
+    <use
+       id="use53"
+       class="fc"
+       xlink:href="#face"
+       style="fill:#000000;stroke:none"
+       x="0"
+       y="0"
+       width="2048"
+       height="2048" />
+    <use
+       id="use55"
+       transform="matrix(0.56640624,-0.82412619,0.82412619,0.56640624,0,0)"
+       class="h1"
+       xlink:href="#handh"
+       style="fill:#000000;stroke:none"
+       x="0"
+       y="0"
+       width="2048"
+       height="2048" />
+    <use
+       id="use57"
+       transform="matrix(0.58778525,0.80901699,-0.80901699,0.58778525,0,0)"
+       class="h1"
+       xlink:href="#handm"
+       style="fill:#000000;stroke:none"
+       x="0"
+       y="0"
+       width="2048"
+       height="2048" />
+    <use
+       id="use59"
+       transform="matrix(0.9781476,0.20791169,-0.20791169,0.9781476,0,0)"
+       class="h2"
+       xlink:href="#hands"
+       style="fill:#aa0000;stroke:none"
+       x="0"
+       y="0"
+       width="2048"
+       height="2048" />
+  </g>
+  <!-- hands at 10:09:02 -->
+</svg>

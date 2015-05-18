@@ -33,7 +33,7 @@ OBJS := $(addprefix bin/,$(SRC:.cpp=.o))
 TEST_SRC := $(shell find $(SRC_DIR) -name 'test.cpp') 
 TEST_OBJS := $(addprefix bin/,$(TEST_SRC:.cpp=.o))
 
-all: $(EXECUTABLE) $(LIBRARY)
+all: $(EXECUTABLE) $(LIBRARY) install index
 $(EXECUTABLE): $(OBJS)
 
 CXXFLAGS := -fPIC -g -rdynamic -Wall -MMD $(addprefix -I,$(INCLUDE_PATHS))
@@ -41,8 +41,8 @@ LDFLAGS := -fPIC -rdynamic  $(addprefix -l,$(REQUIRED_LIBS))
 DEPENDS = $(OBJS:.o=.d)    
 
 $(LIBRARY) : $(OBJS)
-	@echo "Build library $@"
-	@$(CXX) -shared $(OBJS) -o $@ $(LDFLAGS)
+	#@echo "Build library $@"
+	#@$(CXX) -shared $(OBJS) -o $@ $(LDFLAGS)
 	
 
 $(EXECUTABLE) : $(OBJS) $(TEST_OBJS)
@@ -52,7 +52,11 @@ $(EXECUTABLE) : $(OBJS) $(TEST_OBJS)
 install:
 	pgcc_add_project ./*.pgproject
 	
-
+index:
+	@rm -rf ./ind
+	@pgcc_indexer ./src/*.h ./src/*.cpp ./ind
+	
+	
 
 bin/%.o: %.cpp
 	@mkdir -p `dirname $(@:.o=.d)`
@@ -75,5 +79,7 @@ external_libs:
 	@sudo apt-get install $(APT_GET_DEPENDENCIES)
 	@echo "DONE"
 	
+
+.PHONY: index
 
 -include $(DEPENDS) 
