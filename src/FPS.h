@@ -12,10 +12,16 @@
 #include <sys/time.h>
 
 class FPS {
+public:
+	float fps;
+	OUTPUT(float, fps);
+
 private:
 	struct timeval last;
+
+
 public:
-	FPS() {}
+	FPS() {fps = 0;}
 
 	void init() {
 		gettimeofday(&last, NULL);
@@ -25,7 +31,8 @@ public:
 		struct timeval t;
 		gettimeofday(&t, NULL);
 		float ms = (t.tv_sec-last.tv_sec)*1000.0+(t.tv_usec-last.tv_usec)/1000.0;
-		printf("FPS = %.2f\n", 1000.0/ms);
+		fps = 1000.0/ms;
+	//	printf("FPS = %.2f\n", fps);
 		last = t;
 	}
 };

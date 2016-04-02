@@ -3,3 +3,6 @@ Include src/PrintMessage.h
 Include src/ReadFileLines.h
 Include src/WriteFileLines.h
 Include src/FPS.h
+Include src/Counter.h
+Include src/SendNeuronsPromethe.h
+Include src/BasicMatrix.h
